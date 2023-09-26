@@ -149,6 +149,7 @@ const renderElements = (card, elements) => {
 users.forEach(user => {
     const card = createCard();
     const userElements = createDescription();
+    
 
     const elementsWithData = populateElements(user, userElements);
     renderElements(card, elementsWithData);
@@ -156,10 +157,8 @@ users.forEach(user => {
 
 })
 
-
 // EGERSISIO
 // 1. Agregar las bandas
 // PUSH 
-// EVITAR LAS BANDAS PARA EL EJERCICIO 2
 // 2. Obtener la info del usuario desde inputs y mostrar en tarjetas
 // Al menos deben tener 2 commits
