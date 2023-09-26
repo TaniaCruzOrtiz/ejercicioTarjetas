@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manipulacion del DOM</title>
+        <script src='./js/ejercicio.js' async defer></script>
+        <link rel="stylesheet" href="./styles/styles.css">
+
+    </head>
+
+    <body>
+
+        <div class='main container'> 
+            <h1 id='title1'>FORMULARIO DE REGISTRO</h1>
+            <h2 class='subtitulo'>Registro de datos<h2>
+            <label for='name'>Nombre</label>
+            <input id='name' type="text" name="username" value="">
+            <br>
+            <br>
+            <label for="age">Edad</label>
+            <input id="edad" type="text" name="edad" value="">
+            <br>
+            <br>
+            <label for="parrafo">Descripción</label>
+            <input id="parrafo" type="text" name="parrafo" value="">
+            
+            <button id='boton'>Actualizar</button>
+                
+        </div>
+
+        <div class="profile container">
+            <h2 id="username"></h2>
+            <h3 id="age"></h3>
+            <p id="descripcion"></p>
+
+        </div>
+
+        <div id='profiles' class='profiles container'></div>
+
+    </body>
+
+</html>
